@@ -1,0 +1,76 @@
+
+body {
+    margin: 0px;
+}
+
+.main {
+    width: 50%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #ddd;
+    margin-top: 0px;
+
+    padding: 15px;
+}
+
+.content {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 15px;
+}
+
+.auth > * {
+    margin: 5px;
+}
+
+.song {
+    height: 69px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.song > img {
+    height: 64px;
+    width: 64px;
+}
+
+.songInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.songInfo > p {
+    margin: 0px;
+    margin-left: 5px;
+    margin-bottom: 1px;
+
+    padding: 1px;
+    padding-top: 0px;
+}
+
+.results {
+    background-color: #eee;
+
+    width: 75%;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search {
+    margin: 5px;
+}
