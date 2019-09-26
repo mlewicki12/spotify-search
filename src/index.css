@@ -18,13 +18,21 @@ body {
 }
 
 .content {
-    width: 50%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
     padding: 15px;
+}
+
+.searchPage {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .auth > * {
@@ -38,6 +46,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.song:hover {
+    background-color: #ddd;
 }
 
 .song > img {
@@ -63,7 +75,6 @@ body {
 .results {
     background-color: #eee;
 
-    width: 75%;
     margin: 0px;
 
     display: flex;
